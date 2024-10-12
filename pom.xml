@@ -93,8 +93,7 @@
 		
 	</dependencies>
 	
-	
- <distributionManagement>
+	 <distributionManagement>
         <repository>
             <id>maven-releases</id>
             <url>http://3.89.199.131:8081/repository/maven-releases/</url>
