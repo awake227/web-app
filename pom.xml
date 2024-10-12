@@ -93,20 +93,17 @@
 		
 	</dependencies>
 	
-	<distributionManagement>
-	    <repository>
-	      <id>nexus</id>
-	      <name>JOMACS Releases Nexus Repository</name>
-	      <url>http://3.89.199.131:8081/repository/maven-releases//</url>
-	    </repository>
-	    
-	    <snapshotRepository>
-	      <id>nexus</id>
-	      <name>JOMACS Snapshot Nexus Repository </name>
-	      <url>http://3.89.199.131:8081/repository/maven-snapshots/</url>
-	    </snapshotRepository>
-	    
-	</distributionManagement>
+	
+ <distributionManagement>
+        <repository>
+            <id>maven-releases</id>
+            <url>http://http://3.89.199.131:8081/repository/maven-releases/</url>
+        </repository>
+        <snapshotRepository>
+            <id>maven-snapshots</id>
+            <url>http://3.89.199.131:8081/repository/maven-snapshots/</url>
+        </snapshotRepository>
+    </distributionManagement>
 	
 	<build>
 		<finalName>web-app</finalName>
